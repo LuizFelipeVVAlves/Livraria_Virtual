@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+
+html{
+    font-family: 'Manrope', sans-serif;
+}
+
+
 header {
     box-shadow: 0 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+body{
+    margin: 0;
+
 }
