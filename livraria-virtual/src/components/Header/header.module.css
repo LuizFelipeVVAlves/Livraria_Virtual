@@ -1,0 +1,21 @@
+.main_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    background-color: #fff;
+    
+}
+
+.icons_div{
+    display: flex;
+    align-items: center;
+}
+
+.user_button, .shopping_cart_button{
+    background-color: #F4F4FF;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 10px;
+}
