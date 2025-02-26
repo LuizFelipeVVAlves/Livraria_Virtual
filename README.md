@@ -1,4 +1,4 @@
-Livraria Virtaul
+Livraria Virtual
 
 Projeto de React
 
