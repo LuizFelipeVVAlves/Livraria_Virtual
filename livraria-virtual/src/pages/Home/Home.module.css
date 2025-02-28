@@ -12,3 +12,14 @@
     height: 100vh;
     position: relative;
 }
+
+.generos_main_div{
+    position: relative;
+    bottom: 400px;
+}
+
+.generos_div{
+    position: relative;
+    bottom: 400px;
+    margin-left: 295px;
+}
