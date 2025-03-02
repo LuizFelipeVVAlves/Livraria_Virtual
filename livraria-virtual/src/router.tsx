@@ -21,7 +21,7 @@ const router = createBrowserRouter([
                 element: <Home /> 
             },
             {
-                path: "/home/gender",
+                path: "/home/gender/:genderName",
                 element: <Genders_Page></Genders_Page>
             },
             {
