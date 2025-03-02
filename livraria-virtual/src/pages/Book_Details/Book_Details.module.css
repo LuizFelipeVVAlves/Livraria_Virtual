@@ -1,0 +1,79 @@
+.capa{
+    width: 300px;
+    border-radius: 5px;
+}
+
+.capa_div{
+    background-color: #F4F4FF;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.container{
+    margin: 150px;
+}
+
+.book_div_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_div{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sinopse{
+    color: #09093799;
+    font-weight: 600;
+    font-size: 20px;
+    text-justify: distribute;
+    text-align: justify;
+}
+
+.autor{
+    color: #09093799;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+}
+
+.back_div{
+    position: relative;
+    bottom: 70px;
+}
+
+.back_link{
+    text-decoration: none;
+    color: #090937;
+    font-weight: 700;
+}
+
+.carrinho_btn{
+    
+    background-color: #EF6B4A ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.btn_text{
+    white-space-collapse: break-spaces;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.btn_div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sinopse_div{
+    position: relative;
+    bottom: 40px;
+}
