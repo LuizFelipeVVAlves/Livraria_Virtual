@@ -4,3 +4,17 @@
     justify-content: space-between;
     margin-right: 283px;
 }
+
+.genero_text_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ver_mais{
+    position: relative;
+    right: 170px;
+    color: #EF6B4A;
+    text-decoration-line: none;
+    font-weight: 700;
+}
