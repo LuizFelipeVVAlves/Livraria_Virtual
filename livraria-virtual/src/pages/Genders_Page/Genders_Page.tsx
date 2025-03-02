@@ -5,7 +5,6 @@ import BookCardProps from "../../Interfaces/BookCardProps";
 import BookCard from "../../components/BookCard/bookCard";
 import s from "./Genders_Page.module.css"
 import Type from "../../Interfaces/Type";
-import Lupa from "../../assets/Lupa.svg"
 
 export default function Genders_Page() {
     var [books, setBooks] = useState<BookCardProps[]>([])

@@ -3,7 +3,7 @@ import BookCardProps from "../../Interfaces/BookCardProps";
 import s from "./BookCardSmall.module.css"
 import l from "./bookCardLarge.module.css"
 
-export default function BookCard({autor,capa,genero,id,preco,sinopse,titulo, type}: BookCardProps) {
+export default function BookCard({autor,capa,id,preco,titulo, type}: BookCardProps) {
     
     if(type == "small"){
         return (
