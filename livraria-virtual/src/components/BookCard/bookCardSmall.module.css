@@ -1,0 +1,57 @@
+.capa {
+    width: 120px;
+    border-radius: 5px;
+}
+
+
+.book_div{
+    background-color: #F4F4FF;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 5px;
+    height: 206px;
+}
+
+.book_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_container{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.titulo{
+    color: #090937;
+    font-weight: 600;
+    font-size: 18px;
+    width: 200px;
+}
+
+.autor{
+    color: #09093799;
+    font-weight: 600;
+    position: relative;
+    bottom: 10px;
+    font-size: 16px;
+}
+
+.link{
+    text-decoration-line: none;
+}
+
+.top_text{
+    position: relative;
+    bottom: 15px;
+}
+
+.preco{
+    color: #6251DD;
+    font-weight: 700;
+    font-size: 24px;
+}

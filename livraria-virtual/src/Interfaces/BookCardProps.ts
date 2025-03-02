@@ -1,3 +1,5 @@
+import Type from "./Type";
+
 interface BookCardProps {
     id: number;
     titulo: string;
@@ -6,6 +8,9 @@ interface BookCardProps {
     preco: number;
     sinopse: string;
     capa: string;
+    type: Type;
 }
+
+
 
 export default BookCardProps;
