@@ -1,9 +1,7 @@
-import { Link } from "react-router-dom";
 import Banner from "../../assets/Banner.png"
 import s from "./Home.module.css"
 import { useEffect, useState } from "react";
 import api from "../../services/api";
-import AlbumCard from "../../components/BookCard/bookCard";
 import GeneroCard from "../../components/GeneroCard/generoCard";
 
 
