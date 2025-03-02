@@ -35,11 +35,14 @@ export default function BookCard({autor,capa,genero,id,preco,sinopse,titulo, typ
                     <div className={l.book_content}>
                         <img src={capa} className={l.capa} />
                         <div className={l.text_container}>
-                            <div className={l.top_text}>
+                            <div >
                                 <p className={l.titulo}>{titulo}</p>
-                                <p className={l.autor}>{autor}</p>
                             </div>
-                            <p className={l.preco}>R$ {preco}</p>
+                            <div className={l.bottom_text}>
+                                <p className={l.autor}>{autor}</p>
+                                <p className={l.preco}>R$ {preco}</p>
+                            </div>
+                            
                         </div>
                     </div>
                 </Link>

@@ -1,4 +1,63 @@
 .capa {
     width: 200px;
     border-radius: 5px;
+    position: relative;
+    left: 10px;
+}
+
+.book_div{
+    background-color: #F4F4FF;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    height: 90%;
+}
+
+.titulo{
+    color: #090937;
+    font-weight: 600;
+    font-size: 18px;
+    width: 200px;
+}
+
+.autor{
+    color: #09093799;
+    font-weight: 600;
+    position: relative;
+    bottom: 10px;
+    font-size: 16px;
+    word-wrap:break-word;
+    width: 110px;
+}
+
+.link{
+    text-decoration-line: none;
+}
+
+.book_content{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    
+}
+
+.text_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 20px;
+}
+
+.preco{
+    color: #6251DD;
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
 }
